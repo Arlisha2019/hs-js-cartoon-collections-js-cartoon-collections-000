@@ -22,7 +22,6 @@ if ( words.length > 4) {
   return false;
  }
 }
-<<<<<<< HEAD
 
 function findTheCheese (foods) {
   let cheese = ['cheddar', 'gouda', 'camembert'];
@@ -34,16 +33,4 @@ function findTheCheese (foods) {
       }
     }
       return 'no cheese!';
-=======
- 
-function findTheCheese (foods) {
-  var cheese = ['chedder', 'gouda', 'camermbert'];
-for (var i = 0; i < foods.length; i++) {
-  if( foods.length === chesse.length) {
-    return cheese[i];
-  } else {
-    return "no cheese!";
-  }
- }
->>>>>>> 3054c1c3b8c25fd73deac657957f97a9812afff2
 }
